@@ -9,6 +9,11 @@
 #define MAP_FIXED = 1
 #define MAP_SUBMAP = 2
 
+#define SUBMAP 0
+#define HOUSE 1
+#define CELLAR 2
+#define CELLAR_2 3
+
 typedef struct Map {
     const void *tile_data;
     UINT8 tile_bank;

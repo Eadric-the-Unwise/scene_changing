@@ -11,7 +11,7 @@ void main() {
     DISPLAY_OFF;
     SHOW_BKG;
 
-    set_level(&map[0]);
+    set_level(&map[SUBMAP]);
 
     DISPLAY_ON;
 
@@ -19,13 +19,13 @@ void main() {
         joy = joypad();
 
         if (joy & J_SELECT) {
-            set_level(&map[0]);
+            set_level(&map[SUBMAP]);
         } else if (joy & J_START) {
-            set_level(&map[1]);
+            set_level(&map[HOUSE]);
         } else if (joy & J_A) {
-            set_level(&map[2]);
+            set_level(&map[CELLAR]);
         } else if (joy & J_B) {
-            set_level(&map[3]);
+            set_level(&map[CELLAR_2]);
         }
 
         wait_vbl_done();
