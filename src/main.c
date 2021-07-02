@@ -5,7 +5,7 @@
 #include <gb/metasprites.h>
 #include <stdint.h>
 #include <stdio.h>
-
+//comment//
 #include "actor.h"
 
 UINT8 joy;
