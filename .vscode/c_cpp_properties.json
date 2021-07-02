@@ -4,6 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
+                "C:/c_code/gbdk/include/**",
                 "C:/c_code/gbdk/include"
             ],
             "defines": [

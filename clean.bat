@@ -1,2 +1,2 @@
 @REM del .\obj\* /Q
-del .\bin\scene_changing.gb
+del actors_handling.gb
